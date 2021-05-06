@@ -41,7 +41,9 @@ class Home extends React.Component<HomeProps, HomeState> {
       <div>
         <h1>is it finished?</h1>
         <button onClick={() => this.setState({ excuse: newExcuse() })}>No</button>
-        <p>{ this.state.excuse }</p>
+        <p>{this.state.excuse}</p>
+        <hr />
+        <a href="https://github.com/rickypai/libexcuse">Source code</a>. Feel free to contribute more excuses.
       </div>
     );
   };
